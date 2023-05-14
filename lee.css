@@ -1,0 +1,59 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+.container-wrap{
+   
+    width: 100%;
+    height: 1500px;
+}
+
+/*nav*/
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    background-color: aqua;
+    padding: 8px 
+}
+.navlogo{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    
+}
+
+
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+
+}
+img:hover{
+    cursor: pointer;
+}
+.logo{
+    font-weight: 800;
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+}
+.logo:hover{
+    color: yellow;
+}
+.menu li{
+    list-style-type: none;
+    display: inline;
+    margin: left;
+    font-size: 40px;
+    color: #fff;
+    cursor: pointer;
+}
